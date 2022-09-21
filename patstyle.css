@@ -1,0 +1,40 @@
+.bluebar{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(32, 208, 221);
+    margin:6px;
+    display: inline-block;
+}
+.fn{
+    font-size:25px;
+    font-style: italic;
+    font-weight: bold;
+    color:white;
+    margin-left: 10%;
+}
+input{
+    box-shadow: 0 0 11px rgb(0, 0, 0);
+    margin-left: 40%;
+    margin-right: 30%;
+    position: relative;
+    top: -26px;
+}
+.te{
+    position: absolute;
+    top: 39%;
+    right: 3%;
+    font-size: 30px;
+    color:blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 0.2;
+}
+.im{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    right: 22%;
+    z-index: 100;
+}

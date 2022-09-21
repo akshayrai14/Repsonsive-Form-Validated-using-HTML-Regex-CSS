@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAT</title>
+    <link rel="stylesheet" href="patstyle.css">
+    <style>
+        input:invalid{
+            border: 2px solid red;
+        }
+        input:valid{
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body style="margin: 0%; background-color: rgba(209, 204, 204, 0.952)">
+    <img class="im" src="paper_image/VITlogo.png">
+    <div class="topnav"style="background-color: #1678b1; margin-top: 0%; margin-left: 0%">
+      <div class="bluebar"></div>
+      <div style="color: white;font-family: 'Times New Roman', Times, serif;font-size: 45px;display: inline-block;">
+        VIT
+        <div style="color: white;font-family: 'Times New Roman', Times, serif;font-size: 25px;display: inline-block;">
+          (Vellore Campus)
+        </div>
+      </div>
+    </div>
+    <h1 style="color: white;font-family: Verdana, Geneva, Tahoma, sans-serif;position: absolute;top:-1.85%;right:35%;">PAT-REGISTRATION</h1>
+    <div style="position:absolute;top:10%;right:20%;background-color: #1678b1; width: 60%;">
+        <form method="post" action="mailto: akshay11@gmail.com">
+            <br/><br/>
+            <label class="fn" for="name">First Name:</label>
+            <input type="text" id="country_code" name="country_code"
+            pattern="[a-zA-Z]*$" title="Alphabets only">
+            <label class="fn" for="name">Last Name: </label>
+            <input type="text" id="country_code" name="country_code"
+            pattern="[a-zA-Z]*$" title="Alphabets only"><br /><br />
+            <label class="fn">Date of Registration: </label>
+            <input type="date" name="date" id="date" title="date"/><br/><br/>
+            <label class="fn" for="name">Branch:</label>
+            <select class="input" style="position:absolute;top:35%;right:54.5%">
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+            </select><br><br/>
+            <text class="te">"Playing an integral role<br> in creating the illustrious <br>placement record of <br>VIT..."</text>
+            <label class="fn" for="name">Gender:</label>
+            <input type="radio" id="ma" name="gender" value="Male" style="position:absolute;top:42%;right:28.5%">
+            <label for="Male" style="position:absolute;top:42%;right:54%">Male</label>
+            <input type="radio" id="ma" name="gender" value="Male" style="position:absolute;top:42%;right:20.5%">
+            <label for="Male" style="position:absolute;top:42%;right:44%">Female</label>
+            <br><br>
+            <label class="fn" for="name">AGE:</label>
+            <input type="age" pattern="^100|[1-9]?\d$" ><br><br/>
+            <label class="fn" for="name">Email:</label>
+            <input type="email" id="email" name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br/>
+            <label class="fn" for="name">Password:</label>
+            <input type="password" id="pwd" name="pwd"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"><br/><br/>
+            <label class="fn" for="name">Company:</label>
+            <input type="protected" name="name" id="name" />
+            <label class="fn" for="name">Package:</label>
+            <select class="input" style="position:absolute;bottom:16%;right:49.5%">
+                <option value="Dream Package">Dream</option>
+                <option value="Super Dream Package">Super Dream</option>
+            </select><br><br>
+            <label class="fn" for="name">File Upload:</label>
+            <input type="file" value="Offer Letter Upload" style="margin-left:40%">
+            <br><br>
+            <input type="submit" />
+        </form>
+    </div>
+    
+</body>
+</html>
